@@ -6,6 +6,61 @@ __pycache__/
 # C extensions
 *.so
 
+# Ignore virtual environment
+ml_env/
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs and temporary files
+logs/
+*.log
+*.out
+*.err
+
+# Ignore large data files
+data/
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.parquet
+*.h5
+*.hdf5
+*.pickle
+*.pkl
+*.joblib
+*.npy
+*.npz
+
+# Machine Learning models and checkpoints
+checkpoints/
+*.ckpt
+*.pth
+*.onnx
+
+# TensorFlow and PyTorch specific files
+saved_model/
+events.out.tfevents.*
+
+# IDE and OS-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Environment and secret files
+.env
+config.json
+secrets.json
+
+
 # Distribution / packaging
 .Python
 build/
